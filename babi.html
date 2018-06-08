@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <title>WEB site von BabiCargo</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="babiCss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</head>
+    
+    
+    
+<body>
+    
+<!--    Notre entete-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			  </button>
+			  <!-- class="navbar-brand"  --> 
+                <img src = "logo.png" style="width:120px;height:80px;">
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#Acceuil">A PROPOS</a></li>
+                        <li><a href="#Service">NOS SERVICES</a></li>
+                        <li><a href="#myCarousel">SUR NOUS</a></li>
+                        <li><a href="#Prix">NOS PRIX</a></li>
+                        <li><a href="#Contact">CONTACT</a></li>
+						<li><a href="#Agenda">AGENDA</a></li>
+						
+						
+                  </ul>
+			</div>
+		</div>
+	</nav>
+    
+<!--    la partie de la page d acceuil-->
+
+	<div class="jumbotron text-center"  > 
+        <h1>BabiCargo</h1> 
+        <p>Notre competance &agrave votre service.</p> 
+	</div>
+	<div class="container-fluid" id ="Acceuil" >
+		<div class="row">
+			<div class="col-sm-8">
+                  <h2>A propos de Nous</h2>
+                  <h4> BarbiCargo est specialise dans l envoi de marchandise vers l afrique </h4> 
+                  <p>Vous voulez envoyer de la marchandise en cote d ivoire depuis l allemagne et vous ne savez pas comment et ou ? .
+                  Ne cherchez plus BabiCargo se charge du ramassage et de l envoi de vos marchandises en Cote d ivoire et cela en toute securite </p> 
+			</div>
+		 
+			<div class="col-sm-4">
+			  <span class="glyphicon glyphicon-send logo"></span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-grey">
+		<div class="row">
+			<div class="col-sm-4">
+			  <span class="glyphicon glyphicon-globe logo"></span> 
+			</div>
+			<div class="col-sm-8">
+			  <h2>Nos valeurs</h2>
+			  <h4><strong>NOTRE MISSION:</strong> Facilitez l envoi de marchandise vers la cote d ivoire depuis l allemagne .</h4> 
+			  <p><strong>NOTRE VISION:</strong> Organiser des envois reguliers et sures de facon reguliere .
+			</div>
+		</div>
+	</div>
+    
+    
+	<!--la partie service-->
+    
+    
+	<div class="container-fluid text-center" id ="Service" >
+		<h2>SERVICES</h2>
+		<h4>Nous sommes reconnu pour nos envois </h4>
+		<br>
+		<div class="row">
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-ok"></span>
+				<h4>FIABLES</h4>
+				<p>Fiabilite reconnu par nos clients.</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-piggy-bank"></span>
+				<h4>MOIN CHERS</h4>
+				<p>Economiser de l argent en envoyant avace BabiCargo.</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-hourglass"></span>
+				<h4>RAPIDES</h4>
+				<p>Nos envois sont reconnu comme etant rapide .</p>
+			</div>
+			</div>
+			<br><br>
+		<div class="row">
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-lock"></span>
+				<h4>SECURISES</h4>
+				<p>Nous faisons de la securite notre creno.</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-ice-lolly-tasted"></span>
+				<h4>FACILES</h4>
+				<p>Envoyez facilement sans lever le petit doigts.</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-refresh"></span>
+				<h4>REGULIER</h4>
+				<p>Envoi regulier tous les 6 mois .</p>
+			</div>
+		</div>
+	</div>
+    
+    
+    
+	<!--le portfolio-->
+    
+    
+    
+	<div class="container-fluid text-center bg-grey" id ="mission" >
+		 
+		<h2>BabiCargo</h2>
+		<h4>Pour vous ,nous </h4>
+		<div class="row text-center">
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="palmier.jpg">
+					<p><strong>avons une equipe</strong></p>
+					<p>performante et motive pour vous servir</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="coucheDeSoleil.jpg" >
+					<p><strong> apportons la Joie</strong></p>
+					<p>Dans vos familles </p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="mareDeau.jpg">
+					<p><strong> commencons une aventure </strong></p>
+					<p>qui ne s arretera pas de si tot</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    
+<!--    Notre carousel-->
+	
+	<h2>Ce que nos clients disent de nous</h2>
+		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            
+                <!-- Indicateurs -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+                <!-- les messages a faire defiles -->
+            
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+					<h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+					</div>
+					<div class="item">
+					<h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+					</div>
+					<div class="item">
+						<h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+					</div>
+				</div>
+            
+			    <!-- fleches suivant et precedent -->
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Precedent</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Suivant</span>
+				</a>
+		</div>
+    
+    
+<!--    Nos prix-->
+		
+		<div class="container-fluid" id ="Prix" >
+			<div class="text-center">
+				<h2>les Prix</h2>
+				<h4>Vous avez le choix entre des gros et des petites cartons</h4>
+			</div>
+		    <div class="row">
+				<div class="col-sm-6">
+				  <div class="panel panel-default text-center">
+					<div class="panel-heading">
+					  <h1>Gros</h1>
+					</div>
+					<div class="panel-body">
+					  <p><strong>40 kg</strong> carton de 40 kg</p>
+					  <p>ne pas depasser les<strong> 40kg de bagague svp</strong></p>
+					  <p>ne pas dedommager le carton svp</p>
+					 
+					</div>
+					<div class="panel-footer">
+					  <h3>150 Euro</h3>
+					  <h4>a payer en une seule fois </h4>
+					  <button class="btn btn-lg">commandez</button>
+					</div>
+				  </div> 
+				</div> 
+				<div class="col-sm-6">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>Petit</h1>
+						</div>
+						<div class="panel-body">
+							<p><strong>20 kg</strong> carton de 20 kg</p>
+							<p>ne pas depasser les<Strong> 20kg de bagague svp </strong></p>
+							<p>ne pas endommager les carton svp</p>
+						</div>
+						<div class="panel-footer">
+							<h3>75 Euro </h3>
+							<h4>a payer en une seule fois</h4>
+							<button class="btn btn-lg">commandez</button>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+    
+    
+    
+<!--    contact formulaire-->
+		
+		<div class="container-fluid bg-grey" id ="Contact" >
+			<h2 class="text-center">CONTACT</h2>
+			<div class="row">
+				<div class="col-sm-5">
+					<p>vous pouvez nous contacter a tous moments .</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span> Dortmund ,Allemagne</p>
+					<p><span class="glyphicon glyphicon-phone"></span> +00 4915751193470</p>
+					<p><span class="glyphicon glyphicon-envelope"></span> djodhemeko@hotmail.com</p> 
+				</div>
+				<div class="col-sm-7">
+					<form id ="contact-form"  action="mailto:gigie.nobe@yahoo.de"  method="POST" enctype="text/plain"  >
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Nom" type="text" required>
+							</div>
+                            <div class="col-sm-6 form-group">
+								<input class="form-control" id="nummer" name="telefonnummer" placeholder="Numero de telephone" type="tel" required>
+							</div>
+                            <div class="col-sm-6 form-group">
+								<input class="form-control" id="adresse" name="adresse" placeholder="Adresse" type="adresse" required>
+                            </div>
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+							</div>
+						</div>
+						<textarea class="form-control" id="comments" name="comment" placeholder="Exemple de message : Salut je m appell... ,je veux envoyer ... d ici le ..." rows="5"></textarea><br>
+						<div class="row">
+						    <div class="col-sm-12 form-group" >
+                                <input type="submit" value="Send">
+                                <input type="reset" value="Reset">
+								<!--<a class="btn btn-default pull-right" type="submit" href="mailto:gigie.nobe@yahoo.de">Envoyez</a>-->
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+        </div>    
+        
+		<div class="container-fluid " id ="Agenda" >
+			<h2 class="text-center"> NOTRE AGENDA</h2>
+			<div class="row">
+				<div class="col-sm-5">
+					<iframe src="https://calendar.google.com/calendar/embed?src=nurk1spoee3j191the98u86isk%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+				</div>
+				<div class="col-sm-5">	
+					<h2>Debut de ramassage </h2>
+					<h4>le ramassage des marchandises a debute depuis le 01.04.2018</h4>
+					<h2>Fin de ramassge</h2>
+					<h4> les marchandises seront acheminees en cote d ivoire d ici la fin du mois de Mai</h4>
+				</div>
+			</div>
+		</div>
+    
+    
+    
+    
+<!--    pieds de page-->
+    
+	<footer class="container-fluid footer">
+			<div class="container">    
+			  <div class="row">
+				<div class="col-lg-12">
+				  <div class="col-md-6">
+					 <ul class="nav navbar-nav navbar-right">
+						<li><a href="#Acceuil">A PROPOS</a></li>
+						<li><a href="#Service">NOS SERVICES</a></li>
+						<li><a href="#myCarousel">SUR NOUS</a></li>
+						<li><a href="#Prix">NOS PRIX</a></li>
+						<li><a href="#Contact">CONTACT</a></li>
+					  </ul>
+				  </div>
+				 
+				</div>
+			  </div>
+			  <hr>
+			  <div class="row">
+				<div class="col-lg-12">
+				  <div class="col-md-8">
+					<a href="#">Secteur d activite de l entreprise</a> - 
+					<a href="#">transit</a> - 
+				  </div>
+				  <div class="col-md-4">
+					<p class="muted pull-right"> 2018 Compagnie BABI cargo. tous droits reserves</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+	</footer>
+					
+</body>
+</html>
